@@ -105,6 +105,6 @@ class GitHubSignIn {
   }
 
   String _generateAuthorizedUrl() {
-    return "$_githubAuthorizedUrl?client_id=$clientId&redirect_uri=$redirectUrl&scope=$scope&allow_signup=$allowSignUp";
+    return "$_githubAuthorizedUrl?client_id=$clientId&redirect_uri=$redirectUrl&scope=$scope&allow_signup=$allowSignUp&prompt=consent";
   }
 }

@@ -16,9 +16,9 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final GitHubSignIn gitHubSignIn = GitHubSignIn(
-    clientId: 'abd975f97f953c6e1843',
-    clientSecret: '709fb6441354c8d148248ae2cab0673b4ce7f1d5',
-    redirectUrl: 'https://l2t-flutter.firebaseapp.com/__/auth/handler',
+    clientId: 'Ov23liKbSAb18KiTaXim',
+    clientSecret: '097f8c73db61f076642692a5a6d946da7d2e5107',
+    redirectUrl: 'https://iitjobs-inc.firebaseapp.com/__/auth/handler',
     title: 'GitHub Connection',
     centerTitle: false,
   );
